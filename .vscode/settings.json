@@ -67,7 +67,7 @@
     "**/.hg": true,
     "**/.svn": true,
     "**/.git": true,
-    "node_modules": true
+    "node_modules": false
   },
   // Emmet
   "emmet.syntaxProfiles": {
@@ -173,7 +173,7 @@
   "gitlens.codeLens.authors.enabled": false,
   "git.openRepositoryInParentFolders": "always",
   // Extensions
-  "extensions.ignoreRecommendations": true,
+  "extensions.ignoreRecommendations": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "window.commandCenter": true,
   "screencastMode.onlyKeyboardShortcuts": true,
